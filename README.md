@@ -36,7 +36,7 @@ Nosso objetivo é construir juntos, com humildade é dedicação, um sistema só
 - Iara Pereira da Almeida - Front-End/Back-End, Levantamento de requisitos, brainstorm sobre o projeto.
 - João Vitor de Vasconcelos Torres - Front-End/Back-End, brainstorm sobre o projeto.
 - Winicius Ferreira Pichirilo - Front-End/Back-End, brainstorm sobre o projeto.
-- Viniciu Felgueiras Lindoso - Front-End/Back-End, brainstorm sobre o projeto.
+- Vinícius Felgueiras Lindoso - Front-End/Back-End, brainstorm sobre o projeto.
 
 🤝 Como contribuir:
 
