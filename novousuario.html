@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Novo Usuário</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #ffc107;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3730a3;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .back-link a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Criar Novo Usuário</h2>
+    <form action="#" method="POST">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" name="senha" required />
+
+      <label for="confirmarSenha">Confirmar senha</label>
+      <input type="password" id="confirmarSenha" name="confirmarSenha" required />
+
+      <button type="submit">Cadastrar</button>
+    </form>
+    <div class="back-link">
+      <a href="login.html">Já tenho uma conta</a>
+    </div>
+  </div>
+</body>
+</html>
