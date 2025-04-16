@@ -27,7 +27,7 @@ Nosso objetivo é construir juntos, com humildade é dedicação, um sistema só
 - CRUD completo para cadastro de produtos e manipulação dos dados.
 - Interface amigável com layout limpo e responsivo.
 - Inserção e edição otimizada com Bootstrap/HTML/CSS.
-- Organização e padronização dos dados para facilitar buscas e visualização dos dados.
+- Organização e padronização dos dados para facilitar buscas e visualização.
 
  👥 Equipe do Projeto:
 
@@ -42,7 +42,7 @@ Nosso objetivo é construir juntos, com humildade é dedicação, um sistema só
 
 1. Faça um fork do projeto.
 2. Crie uma branch: `git checkout -b sua-branch`
-3. Commit suas alterações: `git commit -m "Sua mensagem"`
+3. Commit suas alterações: `git commit -m "É com você"`
 4. Faça o push para o repositório: `git push origin sua-branch`
 5. Abra um Pull Request.
 
