@@ -40,15 +40,15 @@
 
     <!-- Header -->
     <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center pt-5 pb-3">
+        <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-3">Produtos</h1>
         </div>
     </div>
 
     <!-- Formulário de Produto -->
-    <div class="container-xxl bg-light my-6 py-6 pt-0" style="margin: -5rem 0;">
-        <div class="container">
-            <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container-xxl bg-light my-6 py-6 pt-0" style="display:flex; justify-content: center; margin-top: 249px; max-width: 100vw; margin-bottom: 0px; padding: 0px;">
+        <div class="container" style="max-width: 100vw; padding: 0px; margin-bottom: 15px;">
+            <div class="bg-primary text-light rounded-bottom p-3 my-0 mt-0 wow fadeInUp" data-wow-delay="0.1s" style="display: flex; justify-content: center; align-items: center; padding: 0px; margin-bottom: 0px; max-width: 100vw; padding: 0px;">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-12 text-center">
                         <h1 class="display-4 text-light mb-0">Controle de Estoque da Padaria</h1>
@@ -56,8 +56,8 @@
                 </div>
             </div>
 
-            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s">
-                <div class="col-lg-8">
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s" style="margin-top:10px">
+                <div class="col-lg-8" style="width: 92vw;">
                     <div class="bg-white rounded p-5 shadow">
                         <h3 class="mb-4 text-center">Adicionar Produto ao Estoque</h3>
                         <form action="cadastrar_produto.php" method="POST">
@@ -98,8 +98,8 @@
             </div>
 
             <!-- SEÇÃO DE RETORNO DOS DADOS PARA (TABELA) -->
-            <div class="row justify-content-center mt-5 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-12">
+            <div class="row justify-content-center mt-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="col-lg-12" style="width: 92vw;">
                     <div class="bg-white rounded p-5 shadow">
                         <h3 class="text-center mb-4">Estoque Atual</h3>
 
