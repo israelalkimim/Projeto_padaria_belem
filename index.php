@@ -39,14 +39,17 @@
     </div>
 
     <!-- Header -->
-    <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid page-header py-6 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: 0px; position: sticky;
+      top: 0;
+      text-align: center;
+      z-index: 100;">
         <div class="container text-center">
             <h1 class="display-4 text-white animated slideInDown mb-3">Produtos</h1>
         </div>
     </div>
 
     <!-- Formulário de Produto -->
-    <div class="container-xxl bg-light my-6 py-6 pt-0" style="display:flex; justify-content: center; margin-top: 249px; max-width: 100vw; margin-bottom: 0px; padding: 0px;">
+    <div class="container-xxl bg-light my-6 py-6 pt-0" style="display:flex; justify-content: center; margin-top: 0px; max-width: 100vw; margin-bottom: 0px; padding: 0px;">
         <div class="container" style="max-width: 100vw; padding: 0px; margin-bottom: 15px;">
             <div class="bg-primary text-light rounded-bottom p-3 my-0 mt-0 wow fadeInUp" data-wow-delay="0.1s" style="display: flex; justify-content: center; align-items: center; padding: 0px; margin-bottom: 0px; max-width: 100vw; padding: 0px;">
                 <div class="row g-4 align-items-center">
@@ -58,22 +61,23 @@
 
             <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.2s" style="margin-top:10px">
                 <div class="col-lg-8" style="width: 92vw;">
-                    <div class="bg-white rounded p-5 shadow">
-                        <h3 class="mb-4 text-center">Adicionar Produto ao Estoque</h3>
-                        <form action="cadastrar_produto.php" method="POST">
-                            <div class="mb-3">
+                    <div class="bg-white rounded p-2 shadow">
+                        <h3 class="mb-4 text-center" style="font-size: 40px;">Adicionar Produto ao Estoque</h3>
+                        <div>
+                        <form action="cadastrar_produto.php" method="POST" style="display: flex; justify-content: space-around; align-items: center; margin: 0px 20px 0px 20px; padding: 0px;">
+                            <div class="mb-3" style="width: 200px;">
                                 <label for="nomeProduto" class="form-label">Produtos</label>
                                 <input type="text" class="form-control" id="nomeProduto" name="produto" placeholder="Ex: Pão Francês">
                             </div>
-                            <div class="mb-3">
-                                <label for="codigoProduto" class="form-label">Código do Produto</label>
+                            <div class="mb-3" style="width: 100px;">
+                                <label for="codigoProduto" class="form-label">Código</label>
                                 <input type="text" class="form-control" id="codigoProduto" name="codigo" placeholder="0123456789">
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3" style="width: 100px;">
                                 <label for="quantidade" class="form-label">Quantidade</label>
                                 <input type="number" class="form-control" id="quantidade" name="quantidade" placeholder="Ex: 100">
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3" style="width: 150px;">
                                 <label for="categoria" class="form-label">Categoria</label>
                                 <select class="form-select" id="categoria" name="categoria">
                                     <option selected>Selecione...</option>
@@ -83,16 +87,19 @@
                                     <option value="Bebidas">Bebidas</option>
                                 </select>
                             </div>
-                            <div class="mb-3">
+                            <div class="mb-3" style="width: 150px;">
                                 <label for="validade" class="form-label">Data de Validade</label>
                                 <input type="date" class="form-control" id="validade" name="validade">
                             </div>
-                            <div class="mb-4">
+                            <div class="mb-4" style="width: 400px;">
                                 <label for="descricao" class="form-label">Descrição</label>
                                 <textarea class="form-control" id="descricao" name="descricao" rows="3" placeholder="Observações sobre o produto..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary w-100">Adicionar ao Estoque</button>
                         </form>
+                        </div>
+                        <div style="margin: 10px 20px 20px 20px ;">             
+                            <button type="submit" class="btn btn-primary w-100" >Adicionar ao Estoque</button>
+                        </div>
                     </div>
                 </div>
             </div>
